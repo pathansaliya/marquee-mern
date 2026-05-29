@@ -1,0 +1,29 @@
+git is a version control.
+dev,staging and production
+git provide vcs,collaboration,code riview,push/pull request
+<!-- window+r -->
+<!-- git --version -->
+git commands
+ctrl+` or view->terminal
+cd foldername
+git config --global user.name "developer-name"
+git config --global user.email "my-email"
+install git lens
+git init
+git status
+git add filename
+to add all files=git add.
+git status
+to remove: git restore filename : git rm --cached filename
+git status
+git commit -m "added files"
+rm -rf .git remove files from folder 
+git log
+create new repo on github
+git branch -M main
+git  remote add origin  repo-link
+git push -u origin main
+to pull : git pull changes in remote(github files) will apply locally also
+git branch
+git checkout branchname
+git merge branchname
