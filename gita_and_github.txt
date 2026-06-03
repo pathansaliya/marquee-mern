@@ -27,3 +27,16 @@ to pull : git pull changes in remote(github files) will apply locally also
 git branch
 git checkout branchname
 git merge branchname
+
+
+emmet-abbreviation
+attribute->[]
+numbers->$
+content->{}
+
+
+to add folder on github
+git init
+git add homework/
+git commit -m "Add homework folder"
+git push origin main
