@@ -40,3 +40,9 @@ git init
 git add homework/
 git commit -m "Add homework folder"
 git push origin main
+
+to push modify files
+git status
+git add .
+git commit -m "Updated footer design"
+git push origin main

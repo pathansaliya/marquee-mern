@@ -1,0 +1,8 @@
+grid is a two dimensional 
+grid is divided into grid cells by grid lines
+main properties of grid: parent,cells->items,grid-lines,rows and cols
+grid rows and cols can have spacing between them
+syntax:- display:grid;
+row:- grid-templaterow:100px 100px 100px;
+col:- grid-template col:100px 100px 100px;
+cell level properties:justify-items,align items
