@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    background-color: white;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.item{
+    overflow: hidden;
+    border-radius: 10px;
+    opacity:0.8;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    overflow: cover;
+    object-fit: cover;
+}
+#item-1{
+    grid-row: span 2;
+}
+#item-5{
+    grid-column: span 2;
+}
+#item-2{
+    grid-column: span 2; 
+}
