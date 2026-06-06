@@ -1,0 +1,68 @@
+:root{
+    --bg: #f5f2df;
+
+    --purple: #d4c6f0;
+    --pink: #ef8dad;
+    --green: #cbe6a3;
+    --yellow: #f8e27a;
+    --orange: #f4a676;
+    --blue: #c6dceb;
+
+    --radius: 30px;
+    --gap: 16px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:var(--bg);
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    gap:var(--gap);
+}
+
+.card{
+    border-radius:var(--radius);
+    padding:20px;
+}
+
+.card h2{
+    margin-bottom:15px;
+    font-size:2rem;
+}
+
+.card p{
+    line-height:1.4;
+    font-size:1.1rem;
+}
+
+/* Colors */
+.purple{ background:var(--purple); }
+.pink{ background:var(--pink); }
+.green{ background:var(--green); }
+.yellow{ background:var(--yellow); }
+.orange{ background:var(--orange); }
+.blue{ background:var(--blue); }
+
+/* Grid spans */
+.tall{
+    grid-row: span 2;
+}
+
+.wide{
+    grid-column: span 2;
+}
+
+.wide2{
+    grid-column: span 2;
+}

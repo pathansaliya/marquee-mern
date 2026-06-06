@@ -6,3 +6,7 @@ syntax:- display:grid;
 row:- grid-templaterow:100px 100px 100px;
 col:- grid-template col:100px 100px 100px;
 cell level properties:justify-items,align items
+conatiner leve:justify-content,align content
+by default sum of cells equal to height of container
+gridcolumn,grid row (line start /line end)
+opacity(used for tansparency)
